@@ -6,10 +6,8 @@ from keras.applications.vgg16 import decode_predictions
 #from keras.applications.vgg16 import VGG16
 from keras.applications.resnet50 import ResNet50
 from keras.models import load_model
-from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
 model = ResNet50()
 
 @app.route('/', methods=['GET'])
