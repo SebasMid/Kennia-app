@@ -1,3 +1,7 @@
+# ABDALAASENCIO_SEBASTIAN_0222010039
+# MARTINEZCAUSIL_JUANDIEGO_0222010016
+
+
 from flask import Flask, render_template, request
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
